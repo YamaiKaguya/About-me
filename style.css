@@ -17,8 +17,8 @@ body {
 
 article {
     background: linear-gradient(-160deg, #c9c7c7, #ffffff, #c9c7c79f);
-    width: 33%;
-    height: 70%;
+    width: 500px;
+    height: 500px;
     border-radius: 10px;
 
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.245);
@@ -33,20 +33,19 @@ article {
     height: 125px;
 
     border-radius: 50%;
-    margin-top: 10%;
+    margin-top: 15%;
     margin-bottom: 3%;
 }
 
 .profile-name {
-    font-size: 40px;
+    font-size: 2.5rem;
     color: #00000095;
     font-weight: 100;
 }
 
 .profile-description {
-    font-size: 1.1rem;
-    width: 50ch;
-
+    font-size: 1rem;
+    width: 55ch;
     color: #504e4e5e;
     text-align: center;
     font-weight: bolder;
