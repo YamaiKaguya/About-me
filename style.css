@@ -1,0 +1,71 @@
+@font-face {
+    font-family: source;
+    src: url(source-sans-pro/SourceSansPro-Light.otf);
+}
+
+body {
+    background-color: pink;
+    margin: 0px;
+    font-family: source;
+
+    display: grid;
+    place-items: center;
+
+    height: 100vh;
+    background: linear-gradient(70deg, #3b3b7a, #91617e);
+}
+
+article {
+    background: linear-gradient(-160deg, #c9c7c7, #ffffff, #c9c7c79f);
+    width: 33%;
+    height: 70%;
+    border-radius: 10px;
+
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.245);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile {
+    width: 125px;
+    height: 125px;
+
+    border-radius: 50%;
+    margin-top: 10%;
+    margin-bottom: 3%;
+}
+
+.profile-name {
+    font-size: 40px;
+    color: #00000095;
+    font-weight: 100;
+}
+
+.profile-description {
+    font-size: 1.1rem;
+    width: 50ch;
+
+    color: #504e4e5e;
+    text-align: center;
+    font-weight: bolder;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgba(94, 94, 94, 0.252);
+}
+
+.links i {
+    font-size: 25px;
+    color: rgb(111, 109, 109);
+    background-color: rgba(128, 128, 128, 0.115);
+    margin-inline: 5px;
+    padding: 10px;
+
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.links i:hover {
+    background-color: rgba(128, 128, 128, 0.434);
+    transition: all .15s ease;
+}
