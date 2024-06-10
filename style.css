@@ -11,8 +11,10 @@ body {
     background: linear-gradient(70deg, #3b3b7a, #91617e);
     margin: 0px;
 
-    display: grid;
-    place-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 article {
