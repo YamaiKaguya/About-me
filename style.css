@@ -28,6 +28,8 @@ article {
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    position: relative;
 }
 
 .profile {
@@ -41,8 +43,8 @@ article {
 
 .profile-name {
     font-size: 2.5rem;
-    color: #00000095;
-    font-weight: 100;
+    color: #00000096;
+    font-weight: bolder;
 }
 
 .profile-description {
@@ -59,6 +61,8 @@ article {
     font-size: 0px;
 }
 
+
+
 .links i {
     font-size: 25px;
     color: rgb(111, 109, 109);
@@ -68,9 +72,51 @@ article {
 
     border-radius: 50%;
     cursor: pointer;
+    transition: all .15s ease;
+
 }
 
 .links i:hover {
-    background-color: rgba(128, 128, 128, 0.434);
-    transition: all .15s ease;
+    background-color: #81689da7;
+    box-shadow: 1px 1px 10px #00000038;
 }
+
+
+
+/* .more-container {
+    position: relative;
+    width: 100%;
+
+    margin-top: auto;
+    margin-bottom: 15px;
+}
+
+.more {
+    color: rgba(0, 0, 0, 0.46);
+    font-size: .8rem;
+    text-decoration: none;
+    transition: .15s;
+}
+
+.more::after {
+    content: '';
+    height: 2px;
+    background-color: #81689d58;
+    border-radius: 30px;
+
+    width: 100%;
+    transition: 0.3s;
+
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+}
+
+.more:hover::after {
+    width: 0%;
+}
+
+.more:hover {
+    color: #81689df0;
+    border-width: 100px;
+} */
